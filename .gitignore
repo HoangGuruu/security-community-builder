@@ -1,0 +1,40 @@
+# Terraform files
+*.tfstate
+*.tfstate.*
+*.tfplan
+.terraform/
+.terraform.lock.hcl
+
+# Variable files (may contain sensitive data)
+terraform.tfvars
+*.auto.tfvars
+
+# Lambda deployment packages
+modules/*/*.zip
+modules/*/Dockerfile
+modules/*/app/
+
+# Build scripts
+modules/*/build_and_push.sh
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp

@@ -1,0 +1,18 @@
+# AWS Configuration
+aws_region = "us-east-1"
+
+# Notification Settings
+notification_email = "security-team@example.com"
+
+# EC2 Configuration
+key_pair_name = "security-sim-key"
+
+# Environment
+environment = "security-simulation"
+
+# Malicious IPs for simulation (using test ranges)
+malicious_ips = [
+  "198.51.100.1",
+  "203.0.113.1", 
+  "192.0.2.1"
+]
